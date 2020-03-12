@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		B59415E4241A771B003DB403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415E3241A771B003DB403 /* AppDelegate.swift */; };
 		B59415E6241A771B003DB403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415E5241A771B003DB403 /* SceneDelegate.swift */; };
-		B59415E8241A771B003DB403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415E7241A771B003DB403 /* ContentView.swift */; };
 		B59415EA241A771D003DB403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59415E9241A771D003DB403 /* Assets.xcassets */; };
 		B59415ED241A771D003DB403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59415EC241A771D003DB403 /* Preview Assets.xcassets */; };
 		B59415F0241A771D003DB403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59415EE241A771D003DB403 /* LaunchScreen.storyboard */; };
+		B59415FA241A7C92003DB403 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415F9241A7C92003DB403 /* MainView.swift */; };
+		B59415FE241A7FCF003DB403 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FD241A7FCF003DB403 /* RegionModel.swift */; };
+		B5941600241A875C003DB403 /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FF241A875C003DB403 /* RegionView.swift */; };
+		B5941602241A895A003DB403 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941601241A895A003DB403 /* BoardView.swift */; };
+		B5941604241A8966003DB403 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941603241A8966003DB403 /* BoardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B59415E0241A771B003DB403 /* iOS-UptownRumor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UptownRumor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59415E3241A771B003DB403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59415E5241A771B003DB403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B59415E7241A771B003DB403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B59415E9241A771D003DB403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B59415EC241A771D003DB403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B59415EF241A771D003DB403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B59415F1241A771D003DB403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59415F9241A7C92003DB403 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B59415FD241A7FCF003DB403 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		B59415FF241A875C003DB403 /* RegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
+		B5941601241A895A003DB403 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		B5941603241A8966003DB403 /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		B59415E2241A771B003DB403 /* iOS-UptownRumor */ = {
 			isa = PBXGroup;
 			children = (
+				B59415F9241A7C92003DB403 /* MainView.swift */,
+				B59415FF241A875C003DB403 /* RegionView.swift */,
+				B5941601241A895A003DB403 /* BoardView.swift */,
+				B5941603241A8966003DB403 /* BoardModel.swift */,
+				B59415FD241A7FCF003DB403 /* RegionModel.swift */,
 				B59415E3241A771B003DB403 /* AppDelegate.swift */,
 				B59415E5241A771B003DB403 /* SceneDelegate.swift */,
-				B59415E7241A771B003DB403 /* ContentView.swift */,
 				B59415E9241A771D003DB403 /* Assets.xcassets */,
 				B59415EE241A771D003DB403 /* LaunchScreen.storyboard */,
 				B59415F1241A771D003DB403 /* Info.plist */,
@@ -147,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59415E4241A771B003DB403 /* AppDelegate.swift in Sources */,
+				B5941604241A8966003DB403 /* BoardModel.swift in Sources */,
+				B59415FE241A7FCF003DB403 /* RegionModel.swift in Sources */,
+				B5941600241A875C003DB403 /* RegionView.swift in Sources */,
+				B5941602241A895A003DB403 /* BoardView.swift in Sources */,
+				B59415FA241A7C92003DB403 /* MainView.swift in Sources */,
 				B59415E6241A771B003DB403 /* SceneDelegate.swift in Sources */,
-				B59415E8241A771B003DB403 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
