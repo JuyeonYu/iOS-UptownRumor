@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B570DD99241DEAE4007DC673 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DD98241DEAE4007DC673 /* BoardCell.swift */; };
+		B570DD9B241DF56D007DC673 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DD9A241DF56D007DC673 /* PostDetail.swift */; };
+		B570DD9D241DF958007DC673 /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DD9C241DF958007DC673 /* Reply.swift */; };
+		B570DD9F241DF97E007DC673 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DD9E241DF97E007DC673 /* User.swift */; };
+		B570DDA1241DFA43007DC673 /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DDA0241DFA43007DC673 /* ReplyCell.swift */; };
+		B570DDA3241DFA58007DC673 /* ReplyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570DDA2241DFA58007DC673 /* ReplyList.swift */; };
 		B59415E4241A771B003DB403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415E3241A771B003DB403 /* AppDelegate.swift */; };
 		B59415E6241A771B003DB403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415E5241A771B003DB403 /* SceneDelegate.swift */; };
 		B59415EA241A771D003DB403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59415E9241A771D003DB403 /* Assets.xcassets */; };
 		B59415ED241A771D003DB403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59415EC241A771D003DB403 /* Preview Assets.xcassets */; };
 		B59415F0241A771D003DB403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59415EE241A771D003DB403 /* LaunchScreen.storyboard */; };
 		B59415FA241A7C92003DB403 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415F9241A7C92003DB403 /* MainView.swift */; };
-		B59415FE241A7FCF003DB403 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FD241A7FCF003DB403 /* RegionModel.swift */; };
-		B5941600241A875C003DB403 /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FF241A875C003DB403 /* RegionView.swift */; };
-		B5941602241A895A003DB403 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941601241A895A003DB403 /* BoardView.swift */; };
-		B5941604241A8966003DB403 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941603241A8966003DB403 /* BoardModel.swift */; };
+		B59415FE241A7FCF003DB403 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FD241A7FCF003DB403 /* Region.swift */; };
+		B5941600241A875C003DB403 /* RegionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59415FF241A875C003DB403 /* RegionList.swift */; };
+		B5941602241A895A003DB403 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941601241A895A003DB403 /* PostList.swift */; };
+		B5941604241A8966003DB403 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941603241A8966003DB403 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B570DD98241DEAE4007DC673 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		B570DD9A241DF56D007DC673 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		B570DD9C241DF958007DC673 /* Reply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		B570DD9E241DF97E007DC673 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B570DDA0241DFA43007DC673 /* ReplyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyCell.swift; sourceTree = "<group>"; };
+		B570DDA2241DFA58007DC673 /* ReplyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyList.swift; sourceTree = "<group>"; };
 		B59415E0241A771B003DB403 /* iOS-UptownRumor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UptownRumor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59415E3241A771B003DB403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59415E5241A771B003DB403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +40,10 @@
 		B59415EF241A771D003DB403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B59415F1241A771D003DB403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59415F9241A7C92003DB403 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		B59415FD241A7FCF003DB403 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
-		B59415FF241A875C003DB403 /* RegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
-		B5941601241A895A003DB403 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
-		B5941603241A8966003DB403 /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		B59415FD241A7FCF003DB403 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		B59415FF241A875C003DB403 /* RegionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionList.swift; sourceTree = "<group>"; };
+		B5941601241A895A003DB403 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		B5941603241A8966003DB403 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B570DD96241DE7F1007DC673 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5941603241A8966003DB403 /* Post.swift */,
+				B570DD9E241DF97E007DC673 /* User.swift */,
+				B570DD9C241DF958007DC673 /* Reply.swift */,
+				B59415FD241A7FCF003DB403 /* Region.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B570DD97241DEA6C007DC673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B59415F9241A7C92003DB403 /* MainView.swift */,
+				B570DDA4241E044E007DC673 /* PostEdit.swift */,
+				B59415FF241A875C003DB403 /* RegionList.swift */,
+				B5941601241A895A003DB403 /* PostList.swift */,
+				B570DD98241DEAE4007DC673 /* BoardCell.swift */,
+				B570DD9A241DF56D007DC673 /* PostDetail.swift */,
+				B570DDA0241DFA43007DC673 /* ReplyCell.swift */,
+				B570DDA2241DFA58007DC673 /* ReplyList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B59415D7241A771B003DB403 = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +102,8 @@
 		B59415E2241A771B003DB403 /* iOS-UptownRumor */ = {
 			isa = PBXGroup;
 			children = (
-				B59415F9241A7C92003DB403 /* MainView.swift */,
-				B59415FF241A875C003DB403 /* RegionView.swift */,
-				B5941601241A895A003DB403 /* BoardView.swift */,
-				B5941603241A8966003DB403 /* BoardModel.swift */,
-				B59415FD241A7FCF003DB403 /* RegionModel.swift */,
+				B570DD97241DEA6C007DC673 /* Views */,
+				B570DD96241DE7F1007DC673 /* Models */,
 				B59415E3241A771B003DB403 /* AppDelegate.swift */,
 				B59415E5241A771B003DB403 /* SceneDelegate.swift */,
 				B59415E9241A771D003DB403 /* Assets.xcassets */,
@@ -159,12 +194,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59415E4241A771B003DB403 /* AppDelegate.swift in Sources */,
-				B5941604241A8966003DB403 /* BoardModel.swift in Sources */,
-				B59415FE241A7FCF003DB403 /* RegionModel.swift in Sources */,
-				B5941600241A875C003DB403 /* RegionView.swift in Sources */,
-				B5941602241A895A003DB403 /* BoardView.swift in Sources */,
+				B5941604241A8966003DB403 /* Post.swift in Sources */,
+				B570DDA1241DFA43007DC673 /* ReplyCell.swift in Sources */,
+				B570DD99241DEAE4007DC673 /* BoardCell.swift in Sources */,
+				B59415FE241A7FCF003DB403 /* Region.swift in Sources */,
+				B5941600241A875C003DB403 /* RegionList.swift in Sources */,
+				B5941602241A895A003DB403 /* PostList.swift in Sources */,
+				B570DD9D241DF958007DC673 /* Reply.swift in Sources */,
+				B570DDA3241DFA58007DC673 /* ReplyList.swift in Sources */,
 				B59415FA241A7C92003DB403 /* MainView.swift in Sources */,
+				B570DD9B241DF56D007DC673 /* PostDetail.swift in Sources */,
 				B59415E6241A771B003DB403 /* SceneDelegate.swift in Sources */,
+				B570DD9F241DF97E007DC673 /* User.swift in Sources */,
+				B570DDA5241E044E007DC673 /* PostEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

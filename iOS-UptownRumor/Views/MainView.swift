@@ -9,12 +9,21 @@
 import SwiftUI
 
 struct MainView: View {
-    let currentRegion = RegionModel(name: "대한민국", hasChild: true)
-    let regionList = RegionModel.mockUp()
+    let currentRegion = Region(name: "대한민국", hasChild: true)
+    let regionList = Region.mockUp()
+    let postList = Post.mockUp()
     var body: some View {
         TabView {
             NavigationView {
-                RegionView(currentRegion: currentRegion)
+                List {
+                    HStack {
+                        RegionList(currentRegion: currentRegion)
+                    }
+                    
+                    ForEach (postList) { post in
+                        PostList(post: post)
+                    }
+                }
             }
             .tabItem {
               Image(systemName: "tv.fill")
